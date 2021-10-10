@@ -15,7 +15,7 @@ function_command_exists() {
         # (positive) if a path to a command was found and it was executable
         test -n "$found_path" && \
         test -x "$found_path" && \
-                echo "You are well prepared. Please continue with "
+                echo "You are well prepared. Please continue with enjoyXmas.sh"
 
     done
     
