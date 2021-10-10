@@ -38,8 +38,8 @@ for ((i=1; i<=3; i++))
 
 # Write a greeting
 tput setaf 93; tput bold
-tput cup $lin $((c - 15)); echo SCALEWAY wishes you Merry Christmas
-tput cup $((lin + 1)) $((c - 11)); echo And a happy new year 2020
+tput cup $lin $((c - 15)); echo konfidas wishes you Merry Christmas
+tput cup $((lin + 1)) $((c - 11)); echo And a happy new year 2021
 let c++
 k=1
 
