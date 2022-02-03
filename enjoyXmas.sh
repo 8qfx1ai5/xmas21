@@ -1,5 +1,5 @@
-# The following line tells the shell what program to interpret the script with
 #!/bin/bash
+# The line above tells the shell what program to interpret the script with
 
 # tput is a command to manipulate the terminal, it can be used to change the color of text, apply effects, and generally brighten things up.
 trap "tput reset; tput cnorm; exit" 2
